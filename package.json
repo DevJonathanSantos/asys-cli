@@ -1,0 +1,26 @@
+{
+  "name": "asys-cli",
+  "version": "1.0.0",
+  "description": "CLI para inicializar projetos personalizados",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "asys": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "javascript",
+    "generator"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.2"
+  }
+}
