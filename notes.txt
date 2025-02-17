@@ -1,0 +1,5 @@
+npm unlink -g asys-cli
+
+npm link
+
+asys init
